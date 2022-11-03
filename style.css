@@ -1,0 +1,98 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    background: rgb(243, 243, 243);
+    border-radius: 10px;
+}
+
+.imageback {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+    width: 200%;
+    left: 0px;
+}
+
+.logo {
+    width: 5rem;
+    position: absolute;
+    top: 6rem;
+    left: 34rem;
+}
+
+.image {
+    width: 50%;
+    height: 100%;
+    padding: 0px;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-left: 10px;
+}
+
+.form {
+    width: 50%;
+    height: 100%;
+    padding: 0px;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+form {
+    width: 100%;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+a {
+    align-items: center;
+    height: 2rem;
+    width: 20rem;
+    border-radius: 10px;
+    border: none;
+    background: whitesmoke;
+}
+
+.confirm-login {
+    align-items: center;
+    height: 2rem;
+    width: 20rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.input {
+    height: 100%;
+    width: 100%;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+}
+
+@media (max-width: 600px) {
+    .main {
+        width: 75%;
+        height: 75%;
+        background: rgb(243, 243, 243);
+        border-radius: 10px;
+    }
+}
